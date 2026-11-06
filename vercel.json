@@ -1,0 +1,2 @@
+{"rewrites":[{"source":"/api/:path*","destination":"https://fortnite-api.com/v2/:path*"}],
+"headers":[{"source":"/api/(.*)","headers":[{"key":"Cache-Control","value":"public, s-maxage=300, stale-while-revalidate=600"}]}]}
